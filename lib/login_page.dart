@@ -39,6 +39,7 @@ class _LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
+        width: double.infinity,
         color: Colors.amberAccent,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
