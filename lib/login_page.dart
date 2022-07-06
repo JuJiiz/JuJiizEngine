@@ -41,6 +41,9 @@ class _LoginPageState extends State<LoginPage> {
       body: Container(
         color: Colors.amberAccent,
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisSize: MainAxisSize.max,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             const Text(
               'JuJiiz Login',
